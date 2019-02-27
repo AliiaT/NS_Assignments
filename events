@@ -1,0 +1,71 @@
+<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
+
+<!-- Inline CSS based on choices in "Settings" tab -->
+<style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: #2c85bf}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: #ffffff !important;} .asteriskField{color: red;}.bootstrap-iso form .input-group-addon {color:#555555; background-color: #f2eeee; border-radius: 4px; padding-left:12px}</style>
+
+<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="select">
+       My Events:
+      </label>
+      <select class="select form-control" id="select" name="select">
+       <option value="Pizza Party">
+        Pizza Party
+       </option>
+       <option value="Tasks For This Week">
+        Tasks For This Week
+       </option>
+       <option value="Weekend Activities">
+        Weekend Activities
+       </option>
+       <option value="Color of New Logo">
+        Color of New Logo
+       </option>
+       <option value="Bowling">
+        Bowling
+       </option>
+      </select>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="subject">
+       + Add an Event
+      </label>
+      <input class="form-control" id="subject" name="subject" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="select1">
+       Event Invites
+      </label>
+      <select class="select form-control" id="select1" name="select1">
+       <option value="Tasks for this week 02/28/2019">
+        Tasks for this week 02/28/2019
+       </option>
+       <option value="Weekend Activities 03/10/2019">
+        Weekend Activities 03/10/2019
+       </option>
+       <option value="House Party 03/08/2019">
+        House Party 03/08/2019
+       </option>
+       <option value="Color of New Logo 02/27/2019">
+        Color of New Logo 02/27/2019
+       </option>
+      </select>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-success " name="submit" type="submit">
+        Submit
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
